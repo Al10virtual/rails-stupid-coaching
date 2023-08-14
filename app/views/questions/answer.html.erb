@@ -1,0 +1,16 @@
+<div class="d-flex flex-column justify-content-center align-items-center min-vh-100 bg-light">
+  <div class="container text-center">
+    <h1>Stupid Coaching 😰</h1>
+    <div class="question-container mb-4">
+      <div class="alert alert-primary">
+        <strong>You:</strong> <%= @question %>
+      </div>
+    </div>
+    <div class="answer-container mb-4">
+      <div class="alert alert-success">
+        <strong>Coach:</strong> <%= @answer %>
+      </div>
+    </div>
+    <a href="<%= ask_path %>" class="btn btn-primary">Ask a new question</a>
+  </div>
+</div>
